@@ -27,9 +27,21 @@ header {
     justify-content: center;
 }
 
+.description {
+    display: flex;
+    font-size: 26px;
+    padding: 1em;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+
 .options {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 3em;
 }
@@ -48,7 +60,6 @@ header {
 
 .sketch-area {
     margin-top: 25px;
-    /* margin-right: 40px; */
     display: inline-grid;
     grid-template-columns: repeat(16, 2fr);
     grid-template-rows: repeat(16, 2fr);
