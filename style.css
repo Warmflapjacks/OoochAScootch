@@ -48,7 +48,7 @@ header {
 
 .sketch-area {
     margin-top: 25px;
-    margin-right: 40px;
+    /* margin-right: 40px; */
     display: inline-grid;
     grid-template-columns: repeat(16, 2fr);
     grid-template-rows: repeat(16, 2fr);
